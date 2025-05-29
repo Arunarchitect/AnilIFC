@@ -69,6 +69,7 @@ text.GRID, tspan.GRID { /* 5mm */ font-size: 8.25px; }
 .material-crosshatch3 { fill: url(#crosshatch3); }
 .material-brick { fill: url(#brick); }
 .material-brick2 { fill: url(#brick2); }
+.material-randomrubble { fill: url(#randomrubble); }
 .material-earth { fill: url(#earth); }
 .material-glass { fill: url(#glass); }
 .material-liquid { fill: url(#liquid); }

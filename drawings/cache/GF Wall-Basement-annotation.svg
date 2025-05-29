@@ -1,54 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:20" height="775.0677506775069mm" id="root" version="1.1" viewBox="0 0 1000.0 775.0677506775069" width="1000.0mm">
   <defs/>
-  <path class="GlobalId-2CxyC7ogT8s8H_vOkaMq1j IfcAnnotation PredefinedType-TEXTLEADER" d="M 360.3586196899414 12.465926043709485 L 343.07594299316406 30.789728991707534"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(360.3586120605469, 12.465926170349121) rotate(-0.0)">
-    <tspan class="GlobalId-2CxyC7ogT8s8H_vOkaMq1j IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0">GROOVE FROM </tspan>
-    <tspan class="GlobalId-2CxyC7ogT8s8H_vOkaMq1j IfcAnnotation PredefinedType-TEXTLEADER" dy="1em" x="0" y="0"> BOTTOM TO TOP</tspan>
-  </text>
-  <path class="GlobalId-1$6t_SiO1DVRBoF_DDq1eK IfcAnnotation PredefinedType-TEXTLEADER" d="M 868.5954093933105 754.794188372811 L 851.1178016662598 740.324612490853"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(868.5953979492188, 754.794189453125) rotate(-0.0)">
-    <tspan class="GlobalId-1$6t_SiO1DVRBoF_DDq1eK IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0">BASEMENT HEIGHT </tspan>
-    <tspan class="GlobalId-1$6t_SiO1DVRBoF_DDq1eK IfcAnnotation PredefinedType-TEXTLEADER" dy="1em" x="0" y="0"> 0.35 M</tspan>
-  </text>
-  <path class="GlobalId-11E9Qj965FMBknGJHH9qbt IfcAnnotation PredefinedType-TEXTLEADER" d="M 341.88432693481445 147.00400435181496 L 282.78675079345703 127.6817997619712"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(341.88433837890625, 147.00401306152344) rotate(-0.0)">
-    <tspan class="GlobalId-11E9Qj965FMBknGJHH9qbt IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0">BASEMENT HEIGHT </tspan>
-    <tspan class="GlobalId-11E9Qj965FMBknGJHH9qbt IfcAnnotation PredefinedType-TEXTLEADER" dy="1em" x="0" y="0">  0.5 M</tspan>
-  </text>
-  <path class="GlobalId-1vLbOI3rTBOx1UwXvKX_F0 IfcAnnotation PredefinedType-TEXTLEADER" d="M 688.896369934082 579.6111305877769 L 737.3796463012695 579.9685200378501"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(688.8963623046875, 579.611083984375) rotate(-0.0)">
-    <tspan class="GlobalId-1vLbOI3rTBOx1UwXvKX_F0 IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0"/>
-  </text>
-  <path class="GlobalId-0V$DxfFWL9ExWW2ML8XYqO IfcAnnotation PredefinedType-TEXTLEADER" d="M 861.4406585693359 517.4957474395835 L 824.2876052856445 495.2752312347496"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(861.440673828125, 517.4957275390625) rotate(-0.0)">
-    <tspan class="GlobalId-0V$DxfFWL9ExWW2ML8XYqO IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0">BASEMENT HEIGHT </tspan>
-    <tspan class="GlobalId-0V$DxfFWL9ExWW2ML8XYqO IfcAnnotation PredefinedType-TEXTLEADER" dy="1em" x="0" y="0"> 0.35 M</tspan>
-  </text>
-  <path class="GlobalId-34mmrWF1f87u8d9YX4p01k IfcAnnotation PredefinedType-TEXTLEADER" d="M 443.2429313659668 310.96646391602394 L 437.3089790344238 397.4745949432456"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(443.242919921875, 310.9664611816406) rotate(-0.0)">
-    <tspan class="GlobalId-34mmrWF1f87u8d9YX4p01k IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0">BASEMENT HEIGHT </tspan>
-    <tspan class="GlobalId-34mmrWF1f87u8d9YX4p01k IfcAnnotation PredefinedType-TEXTLEADER" dy="1em" x="0" y="0">  0.5 M</tspan>
-  </text>
-  <path class="GlobalId-0yCFgVYQz8$fdqTg_NBlXR IfcAnnotation PredefinedType-TEXTLEADER" d="M 659.2108726501465 580.7522495910728 L 607.5661659240723 579.2340954467857"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(659.2108764648438, 580.7522583007812) rotate(-0.0)">
-    <tspan class="GlobalId-0yCFgVYQz8$fdqTg_NBlXR IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0">BASEMENT HEIGHT </tspan>
-    <tspan class="GlobalId-0yCFgVYQz8$fdqTg_NBlXR IfcAnnotation PredefinedType-TEXTLEADER" dy="1em" x="0" y="0">  0.5 M</tspan>
-  </text>
-  <path class="GlobalId-1iKr_6N0rEcuHN7GocF4j8 IfcAnnotation PredefinedType-TEXTLEADER" d="M 661.0841751098633 528.4121712371909 L 611.7397308349609 495.5529888794029"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(661.0841674804688, 528.4121704101562) rotate(-0.0)">
-    <tspan class="GlobalId-1iKr_6N0rEcuHN7GocF4j8 IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0">BASEMENT HEIGHT </tspan>
-    <tspan class="GlobalId-1iKr_6N0rEcuHN7GocF4j8 IfcAnnotation PredefinedType-TEXTLEADER" dy="1em" x="0" y="0">  0.5 M</tspan>
-  </text>
-  <path class="GlobalId-0_KNyhNCT2HQa0SeJwgANI IfcAnnotation PredefinedType-TEXTLEADER" d="M 868.9669609069824 503.8582047149742 L 835.9996795654297 489.8713310882652"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(868.9669799804688, 503.8581848144531) rotate(-0.0)">
-    <tspan class="GlobalId-0_KNyhNCT2HQa0SeJwgANI IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0">GROOVE FROM </tspan>
-    <tspan class="GlobalId-0_KNyhNCT2HQa0SeJwgANI IfcAnnotation PredefinedType-TEXTLEADER" dy="1em" x="0" y="0"> BOTTOM TO TOP</tspan>
-  </text>
-  <path class="GlobalId-0a$54ohiXE_eV2TVPW7GRF IfcAnnotation PredefinedType-TEXTLEADER" d="M 682.1437835693359 522.0954617187583 L 680.308723449707 502.3256024047935"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(682.143798828125, 522.095458984375) rotate(-0.0)">
-    <tspan class="GlobalId-0a$54ohiXE_eV2TVPW7GRF IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0"/>
-  </text>
   <line class="GlobalId-1bjCqJUlrCKAtORM4gPXCN IfcAnnotation PredefinedType-DIMENSION" x1="738.7890014648438" x2="743.1009521484375" y1="544.9224243164062" y2="551.0589599609375"/>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(741.7631225585938, 547.415771484375) rotate(54.90549334133383)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">0.150</tspan>
@@ -817,23 +769,23 @@
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(722.8513793945312, 365.37530517578125) rotate(-90.00000250447816)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">1.174</tspan>
   </text>
-  <path class="GlobalId-1IyheY0s91Qwmvb61L_IU3 IfcAnnotation PredefinedType-TEXTLEADER" d="M 447.5889205932617 303.36625181885597 L 435.20727157592773 255.03174864502785"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(447.58892822265625, 303.3662414550781) rotate(-0.0)">
-    <tspan class="GlobalId-1IyheY0s91Qwmvb61L_IU3 IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0"/>
-  </text>
   <path class="GlobalId-2YR_hnYGf5aR8hdxxewDgM IfcAnnotation PredefinedType-TEXTLEADER" d="M 674.4256973266602 451.5259941742027 L 734.5735549926758 476.9208630249107"/>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="end" transform="translate(674.4257202148438, 451.5259704589844) rotate(-0.0)">
     <tspan class="GlobalId-2YR_hnYGf5aR8hdxxewDgM IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0">BASEMENT HEIGHT </tspan>
     <tspan class="GlobalId-2YR_hnYGf5aR8hdxxewDgM IfcAnnotation PredefinedType-TEXTLEADER" dy="1em" x="0" y="0">  0.35 M</tspan>
   </text>
-  <path class="GlobalId-04zTNnG$L65fPF7yBVFqkl IfcAnnotation PredefinedType-TEXTLEADER" d="M 693.0700302124023 401.9354065582359 L 741.5531158447266 402.29279600830915"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(693.0700073242188, 401.9353942871094) rotate(-0.0)">
-    <tspan class="GlobalId-04zTNnG$L65fPF7yBVFqkl IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0"/>
+  <path class="GlobalId-1IyheY0s91Qwmvb61L_IU3 IfcAnnotation PredefinedType-TEXTLEADER" d="M 447.5889205932617 303.36625181885597 L 435.20727157592773 255.03174864502785"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(447.58892822265625, 303.3662414550781) rotate(-0.0)">
+    <tspan class="GlobalId-1IyheY0s91Qwmvb61L_IU3 IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0"/>
   </text>
   <path class="GlobalId-1mS2U6ZMnEGO_ORfUNBV5k IfcAnnotation PredefinedType-TEXTLEADER" d="M 354.65078353881836 63.849612109383315 L 295.55320739746094 44.527407519539565"/>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(354.6507873535156, 63.849609375) rotate(-0.0)">
     <tspan class="GlobalId-1mS2U6ZMnEGO_ORfUNBV5k IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0">BASEMENT HEIGHT </tspan>
     <tspan class="GlobalId-1mS2U6ZMnEGO_ORfUNBV5k IfcAnnotation PredefinedType-TEXTLEADER" dy="1em" x="0" y="0"> 0.35 M</tspan>
+  </text>
+  <path class="GlobalId-04zTNnG$L65fPF7yBVFqkl IfcAnnotation PredefinedType-TEXTLEADER" d="M 693.0700302124023 401.9354065582359 L 741.5531158447266 402.29279600830915"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(693.0700073242188, 401.9353942871094) rotate(-0.0)">
+    <tspan class="GlobalId-04zTNnG$L65fPF7yBVFqkl IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0"/>
   </text>
   <path class="GlobalId-3FnzDPTWv2lR0pddol64EW IfcAnnotation PredefinedType-TEXTLEADER" d="M 371.5700149536133 145.86293303223488 L 401.42107009887695 128.83030974121925"/>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(371.57000732421875, 145.86293029785156) rotate(-0.0)">
@@ -851,6 +803,54 @@
   <path class="GlobalId-3K8Nbzfsn2H9hqL1Vceei3 IfcAnnotation PredefinedType-TEXTLEADER" d="M 381.87313079833984 62.71817290039894 L 386.80477142333984 45.925207965096206"/>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(381.8731384277344, 62.718170166015625) rotate(-0.0)">
     <tspan class="GlobalId-3K8Nbzfsn2H9hqL1Vceei3 IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0"/>
+  </text>
+  <path class="GlobalId-2CxyC7ogT8s8H_vOkaMq1j IfcAnnotation PredefinedType-TEXTLEADER" d="M 360.3586196899414 12.465926043709485 L 343.07594299316406 30.789728991707534"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(360.3586120605469, 12.465926170349121) rotate(-0.0)">
+    <tspan class="GlobalId-2CxyC7ogT8s8H_vOkaMq1j IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0">GROOVE FROM </tspan>
+    <tspan class="GlobalId-2CxyC7ogT8s8H_vOkaMq1j IfcAnnotation PredefinedType-TEXTLEADER" dy="1em" x="0" y="0"> BOTTOM TO TOP</tspan>
+  </text>
+  <path class="GlobalId-1$6t_SiO1DVRBoF_DDq1eK IfcAnnotation PredefinedType-TEXTLEADER" d="M 868.5954093933105 754.794188372811 L 851.1178016662598 740.324612490853"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(868.5953979492188, 754.794189453125) rotate(-0.0)">
+    <tspan class="GlobalId-1$6t_SiO1DVRBoF_DDq1eK IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0">BASEMENT HEIGHT </tspan>
+    <tspan class="GlobalId-1$6t_SiO1DVRBoF_DDq1eK IfcAnnotation PredefinedType-TEXTLEADER" dy="1em" x="0" y="0"> 0.35 M</tspan>
+  </text>
+  <path class="GlobalId-11E9Qj965FMBknGJHH9qbt IfcAnnotation PredefinedType-TEXTLEADER" d="M 341.88432693481445 147.00400435181496 L 282.78675079345703 127.6817997619712"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(341.88433837890625, 147.00401306152344) rotate(-0.0)">
+    <tspan class="GlobalId-11E9Qj965FMBknGJHH9qbt IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0">BASEMENT HEIGHT </tspan>
+    <tspan class="GlobalId-11E9Qj965FMBknGJHH9qbt IfcAnnotation PredefinedType-TEXTLEADER" dy="1em" x="0" y="0">  0.5 M</tspan>
+  </text>
+  <path class="GlobalId-1vLbOI3rTBOx1UwXvKX_F0 IfcAnnotation PredefinedType-TEXTLEADER" d="M 688.896369934082 579.6111305877769 L 737.3796463012695 579.9685200378501"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(688.8963623046875, 579.611083984375) rotate(-0.0)">
+    <tspan class="GlobalId-1vLbOI3rTBOx1UwXvKX_F0 IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0"/>
+  </text>
+  <path class="GlobalId-0_KNyhNCT2HQa0SeJwgANI IfcAnnotation PredefinedType-TEXTLEADER" d="M 868.9669609069824 503.8582047149742 L 835.9996795654297 489.8713310882652"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(868.9669799804688, 503.8581848144531) rotate(-0.0)">
+    <tspan class="GlobalId-0_KNyhNCT2HQa0SeJwgANI IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0">GROOVE FROM </tspan>
+    <tspan class="GlobalId-0_KNyhNCT2HQa0SeJwgANI IfcAnnotation PredefinedType-TEXTLEADER" dy="1em" x="0" y="0"> BOTTOM TO TOP</tspan>
+  </text>
+  <path class="GlobalId-0V$DxfFWL9ExWW2ML8XYqO IfcAnnotation PredefinedType-TEXTLEADER" d="M 861.4406585693359 517.4957474395835 L 824.2876052856445 495.2752312347496"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(861.440673828125, 517.4957275390625) rotate(-0.0)">
+    <tspan class="GlobalId-0V$DxfFWL9ExWW2ML8XYqO IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0">BASEMENT HEIGHT </tspan>
+    <tspan class="GlobalId-0V$DxfFWL9ExWW2ML8XYqO IfcAnnotation PredefinedType-TEXTLEADER" dy="1em" x="0" y="0"> 0.35 M</tspan>
+  </text>
+  <path class="GlobalId-34mmrWF1f87u8d9YX4p01k IfcAnnotation PredefinedType-TEXTLEADER" d="M 443.2429313659668 310.96646391602394 L 437.3089790344238 397.4745949432456"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(443.242919921875, 310.9664611816406) rotate(-0.0)">
+    <tspan class="GlobalId-34mmrWF1f87u8d9YX4p01k IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0">BASEMENT HEIGHT </tspan>
+    <tspan class="GlobalId-34mmrWF1f87u8d9YX4p01k IfcAnnotation PredefinedType-TEXTLEADER" dy="1em" x="0" y="0">  0.5 M</tspan>
+  </text>
+  <path class="GlobalId-0yCFgVYQz8$fdqTg_NBlXR IfcAnnotation PredefinedType-TEXTLEADER" d="M 659.2108726501465 580.7522495910728 L 607.5661659240723 579.2340954467857"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(659.2108764648438, 580.7522583007812) rotate(-0.0)">
+    <tspan class="GlobalId-0yCFgVYQz8$fdqTg_NBlXR IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0">BASEMENT HEIGHT </tspan>
+    <tspan class="GlobalId-0yCFgVYQz8$fdqTg_NBlXR IfcAnnotation PredefinedType-TEXTLEADER" dy="1em" x="0" y="0">  0.5 M</tspan>
+  </text>
+  <path class="GlobalId-1iKr_6N0rEcuHN7GocF4j8 IfcAnnotation PredefinedType-TEXTLEADER" d="M 661.0841751098633 528.4121712371909 L 611.7397308349609 495.5529888794029"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(661.0841674804688, 528.4121704101562) rotate(-0.0)">
+    <tspan class="GlobalId-1iKr_6N0rEcuHN7GocF4j8 IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0">BASEMENT HEIGHT </tspan>
+    <tspan class="GlobalId-1iKr_6N0rEcuHN7GocF4j8 IfcAnnotation PredefinedType-TEXTLEADER" dy="1em" x="0" y="0">  0.5 M</tspan>
+  </text>
+  <path class="GlobalId-0a$54ohiXE_eV2TVPW7GRF IfcAnnotation PredefinedType-TEXTLEADER" d="M 682.1437835693359 522.0954617187583 L 680.308723449707 502.3256024047935"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(682.143798828125, 522.095458984375) rotate(-0.0)">
+    <tspan class="GlobalId-0a$54ohiXE_eV2TVPW7GRF IfcAnnotation PredefinedType-TEXTLEADER" dy="0em" x="0" y="0"/>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(186.93838500976562, 717.0546264648438) rotate(-0.0)">
     <tspan class="GlobalId-1xrjpUlDb8MPAdlsThVtI2 IfcAnnotation PredefinedType-TEXT large" dy="0em" x="0" y="0">BASEMENT NORMAL HEIGHT  0.7 M </tspan>

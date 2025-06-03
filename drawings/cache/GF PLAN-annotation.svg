@@ -287,9 +287,6 @@
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(253.90322875976562, 370.58868408203125) rotate(-0.0)">
     <tspan class="GlobalId-366TO8EAH0PuEb2mRxMHU0 IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">PATIO</tspan>
   </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(138.9221954345703, 124.80052947998047) rotate(-0.0)">
-    <tspan class="GlobalId-0JKg4NLqT9JBxTACF1K5M5 IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">DRAWING ROOM</tspan>
-  </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(406.731689453125, 296.4850158691406) rotate(-0.0)">
     <tspan class="GlobalId-1jRg0f_yzBEQQylTyW8L0u IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">KITCHEN</tspan>
   </text>
@@ -298,6 +295,9 @@
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(35.708580017089844, 146.12579345703125) rotate(-0.0)">
     <tspan class="GlobalId-3x7RK1Fo90SBIkNJ03LVYH IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">CAR PORCH</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(138.9221954345703, 124.80052947998047) rotate(-0.0)">
+    <tspan class="GlobalId-0JKg4NLqT9JBxTACF1K5M5 IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">DRAWING ROOM</tspan>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(205.95745849609375, 109.15298461914062) rotate(-0.0)">
     <tspan class="GlobalId-2RainBCdT6wfFNuPmFK$6h IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">DRESS</tspan>
@@ -311,14 +311,11 @@
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(264.9700622558594, 272.252685546875) rotate(-0.0)">
     <tspan class="GlobalId-12i8bLuVjFthpKXkbuisdD IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">DINING</tspan>
   </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(321.6331787109375, 151.454345703125) rotate(-0.0)">
-    <tspan class="GlobalId-1NTtGfwcX5Gw3qOBtja36Q IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">BED 2</tspan>
-  </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(166.4697265625, 310.13763427734375) rotate(-0.0)">
     <tspan class="GlobalId-27ji9Jn0fE8g519I4fEtzf IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">VERANDAH</tspan>
   </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(208.33572387695312, 73.69529724121094) rotate(-0.0)">
-    <tspan class="GlobalId-2jHsz$Ya93SOu_J0WE0z2a IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">TOILET</tspan>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(321.6331787109375, 151.454345703125) rotate(-0.0)">
+    <tspan class="GlobalId-1NTtGfwcX5Gw3qOBtja36Q IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">BED 2</tspan>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(192.54116821289062, 193.55386352539062) rotate(-0.0)">
     <tspan class="GlobalId-2pqaBcMEr8FAejVTN_K5Ud IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">FOYER</tspan>
@@ -326,11 +323,17 @@
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(327.8454895019531, 248.864990234375) rotate(-0.0)">
     <tspan class="GlobalId-33GMYmCoL9de9IlVXZ6JCw IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">WASH</tspan>
   </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(208.33572387695312, 73.69529724121094) rotate(-0.0)">
+    <tspan class="GlobalId-2jHsz$Ya93SOu_J0WE0z2a IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">TOILET</tspan>
+  </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(336.888671875, 297.4709167480469) rotate(-0.0)">
     <tspan class="GlobalId-0$xBkjt8j0Ox4BXVwTTqfr IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">KITCHENETTE</tspan>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(397.52130126953125, 281.8262939453125) rotate(-0.0)">
     <tspan class="GlobalId-3rFnoNeMf7ShZUx5S_JVCn IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">REFRIGERATOR</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(383.3026123046875, 245.50271606445312) rotate(-0.0)">
+    <tspan class="GlobalId-3Os9caui5EufbJi3WdgeOk IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">UTILITY</tspan>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(126.49417877197266, 250.36109924316406) rotate(-0.0)">
     <tspan class="GlobalId-2KdzbFv8DE4fS$__7wt1ZM IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">VERANDAH</tspan>
@@ -338,13 +341,10 @@
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(269.0173645019531, 88.25313568115234) rotate(-0.0)">
     <tspan class="GlobalId-3O8FJAbWL40v6_pIO4OBau IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">BED 1</tspan>
   </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(383.3026123046875, 245.50271606445312) rotate(-0.0)">
-    <tspan class="GlobalId-3Os9caui5EufbJi3WdgeOk IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">UTILITY</tspan>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(431.07464599609375, 304.991943359375) rotate(-0.0)">
+    <tspan class="GlobalId-2cz9BzW3T2CAfGgJlPY746 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">STOVE</tspan>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(339.30438232421875, 212.1100616455078) rotate(-0.0)">
     <tspan class="GlobalId-01msMys_n2HxXWX_JpJ4w$ IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">TOILET</tspan>
-  </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(431.07464599609375, 304.991943359375) rotate(-0.0)">
-    <tspan class="GlobalId-2cz9BzW3T2CAfGgJlPY746 IfcAnnotation PredefinedType-TEXT small" dy="0em" x="0" y="0">STOVE</tspan>
   </text>
 </svg>

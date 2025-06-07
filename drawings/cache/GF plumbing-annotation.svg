@@ -1,12 +1,88 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:50" height="400.06775067750675mm" id="root" version="1.1" viewBox="0 0 500.0 400.06775067750675" width="500.0mm">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:30" height="766.9376693766939mm" id="root" version="1.1" viewBox="0 0 1000.0000000000001 766.9376693766939" width="1000.0000000000001mm">
   <defs/>
-  <use transform="rotate(90.00000250447816, -41.497459411621094, 217.559814453125)" x="-41.497459411621094" xlink:href="#elevation-arrow" y="217.559814453125"/>
-  <use x="-41.497459411621094" xlink:href="#elevation-tag" y="217.559814453125"/>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="-41.497459411621094" y="215.059814453125">-</text>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="-41.497459411621094" y="220.059814453125">-</text>
-  <use transform="rotate(-0.0, 232.74551391601562, 390.17364501953125)" x="232.74551391601562" xlink:href="#elevation-arrow" y="390.17364501953125"/>
-  <use x="232.74551391601562" xlink:href="#elevation-tag" y="390.17364501953125"/>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="232.74551391601562" y="387.67364501953125">-</text>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="232.74551391601562" y="392.67364501953125">-</text>
+  <line class="GlobalId-2KM_3v$Yv0WQ5JTlGjyRMz IfcAnnotation PredefinedType-DIAMETER" x1="668.3038940429688" x2="670.047607421875" y1="227.29075622558594" y2="204.02268981933594"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(668.1785888671875, 215.5819854736328) rotate(-85.71425687578109)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">D0.700</tspan>
+  </text>
+  <line class="GlobalId-35RxKgTP1CgOqkuqytnFOt IfcAnnotation PredefinedType-DIMENSION" x1="380.4698181152344" x2="393.8031311035156" y1="139.23533630371094" y2="139.23533630371094"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(387.136474609375, 138.23533630371094) rotate(0.0)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">0.400</tspan>
+  </text>
+  <line class="GlobalId-35RxKgTP1CgOqkuqytnFOt IfcAnnotation PredefinedType-DIMENSION" x1="623.9439697265625" x2="623.9439697265625" y1="152.62326049804688" y2="145.95657348632812"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(622.9439697265625, 149.2899169921875) rotate(-90.00000250447816)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">0.200</tspan>
+  </text>
+  <line class="GlobalId-35RxKgTP1CgOqkuqytnFOt IfcAnnotation PredefinedType-DIMENSION" x1="407.1364440917969" x2="410.4697265625" y1="112.04277038574219" y2="112.04277038574219"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(413.4697265625, 111.04277038574219) rotate(0.0)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">0.100</tspan>
+  </text>
+  <line class="GlobalId-35RxKgTP1CgOqkuqytnFOt IfcAnnotation PredefinedType-DIMENSION" x1="437.6976623535156" x2="437.6976623535156" y1="145.95657348632812" y2="129.28990173339844"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(436.6976623535156, 137.62322998046875) rotate(-90.00000250447816)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">0.500</tspan>
+  </text>
+  <line class="GlobalId-35RxKgTP1CgOqkuqytnFOt IfcAnnotation PredefinedType-DIMENSION" x1="665.4957275390625" x2="665.4957275390625" y1="267.290771484375" y2="250.6239776611328"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(664.4957275390625, 258.9573669433594) rotate(-90.00000250447816)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">0.500</tspan>
+  </text>
+  <line class="GlobalId-35RxKgTP1CgOqkuqytnFOt IfcAnnotation PredefinedType-DIMENSION" x1="620.1358032226562" x2="626.802490234375" y1="163.0458526611328" y2="163.0458526611328"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(623.4691162109375, 162.0458526611328) rotate(0.0)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">0.200</tspan>
+  </text>
+  <line class="GlobalId-35RxKgTP1CgOqkuqytnFOt IfcAnnotation PredefinedType-DIMENSION" x1="620.1356811523438" x2="626.802490234375" y1="228.64859008789062" y2="228.64859008789062"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(623.4691162109375, 227.64859008789062) rotate(0.0)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">0.200</tspan>
+  </text>
+  <line class="GlobalId-35RxKgTP1CgOqkuqytnFOt IfcAnnotation PredefinedType-DIMENSION" x1="639.0350952148438" x2="639.0350952148438" y1="267.290771484375" y2="233.9574432373047"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(638.0350952148438, 250.62411499023438) rotate(-90.00000250447816)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">1.000</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(876.5040283203125, 623.4620361328125) rotate(-0.0)">
+    <tspan class="GlobalId-1T62_0VKzE_AQSm20L38Hm IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">SEPTIC TANK </tspan>
+    <tspan class="GlobalId-1T62_0VKzE_AQSm20L38Hm IfcAnnotation PredefinedType-TEXT" dy="1em" x="0" y="0"> SOAKPIT</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(113.13358306884766, 478.97998046875) rotate(-0.0)">
+    <tspan class="GlobalId-1divHeKMT4vxiYuNXt1cbM IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">RAIN WATER   </tspan>
+    <tspan class="GlobalId-1divHeKMT4vxiYuNXt1cbM IfcAnnotation PredefinedType-TEXT" dy="1em" x="0" y="0"> SOAKPIT</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(670.357666015625, 232.2767333984375) rotate(-0.0)">
+    <tspan class="GlobalId-1zOEPvy9H0owAB0wldg5wO IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">RAIN WATER   </tspan>
+    <tspan class="GlobalId-1zOEPvy9H0owAB0wldg5wO IfcAnnotation PredefinedType-TEXT" dy="1em" x="0" y="0"> SOAKPIT</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(814.5081176757812, 399.49774169921875) rotate(-0.0)">
+    <tspan class="GlobalId-1tdJ_8F4b63hAquYkiLKnO IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">WASTE WATER </tspan>
+    <tspan class="GlobalId-1tdJ_8F4b63hAquYkiLKnO IfcAnnotation PredefinedType-TEXT" dy="1em" x="0" y="0"> SOAKPIT</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(775.1295776367188, 676.84765625) rotate(-0.0)">
+    <tspan class="GlobalId-3Z9L$yTKf1tP01w4BPQ5L2 IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">KITCHEN WASTE WATER   </tspan>
+    <tspan class="GlobalId-3Z9L$yTKf1tP01w4BPQ5L2 IfcAnnotation PredefinedType-TEXT" dy="1em" x="0" y="0"> SOAKPIT</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(343.18450927734375, 670.8878173828125) rotate(-0.0)">
+    <tspan class="GlobalId-06gsnDrlT8v8sLYmu9xCmI IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">RAIN WATER   </tspan>
+    <tspan class="GlobalId-06gsnDrlT8v8sLYmu9xCmI IfcAnnotation PredefinedType-TEXT" dy="1em" x="0" y="0"> SOAKPIT</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(464.2439270019531, 114.70134735107422) rotate(-0.0)">
+    <tspan class="GlobalId-3D7M9scRD798$Qf0FVZcjj IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">WASTE WATER </tspan>
+    <tspan class="GlobalId-3D7M9scRD798$Qf0FVZcjj IfcAnnotation PredefinedType-TEXT" dy="1em" x="0" y="0"> SOAKPIT</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(143.7275848388672, 199.46214294433594) rotate(-0.0)">
+    <tspan class="GlobalId-1lEpVSZ3n4SwyPo$P4TuPW IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">RAIN WATER   </tspan>
+    <tspan class="GlobalId-1lEpVSZ3n4SwyPo$P4TuPW IfcAnnotation PredefinedType-TEXT" dy="1em" x="0" y="0"> SOAKPIT</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(323.0216369628906, 137.68711853027344) rotate(-0.0)">
+    <tspan class="GlobalId-33PWAkyUn7TOkoPX5zbDMj IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">20 FLUSHES </tspan>
+    <tspan class="GlobalId-33PWAkyUn7TOkoPX5zbDMj IfcAnnotation PredefinedType-TEXT" dy="1em" x="0" y="0"> RCC SEPTIC TANK</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(890.7599487304688, 548.6959838867188) rotate(-0.0)">
+    <tspan class="GlobalId-0A7sUK1Yn8hxygRTszFmKK IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">30 FLUSHES </tspan>
+    <tspan class="GlobalId-0A7sUK1Yn8hxygRTszFmKK IfcAnnotation PredefinedType-TEXT" dy="1em" x="0" y="0"> RCC SEPTIC TANK</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(383.83056640625, 100.34181213378906) rotate(-0.0)">
+    <tspan class="GlobalId-1wG23s0Aj07xxPhgeEHqX6 IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">WASTE WATER </tspan>
+    <tspan class="GlobalId-1wG23s0Aj07xxPhgeEHqX6 IfcAnnotation PredefinedType-TEXT" dy="1em" x="0" y="0"> SOAKPIT</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(643.3632202148438, 676.84765625) rotate(-0.0)">
+    <tspan class="GlobalId-2FAdgQVErEiBY9KgDa$vBF IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">RAIN WATER   </tspan>
+    <tspan class="GlobalId-2FAdgQVErEiBY9KgDa$vBF IfcAnnotation PredefinedType-TEXT" dy="1em" x="0" y="0"> SOAKPIT</tspan>
+  </text>
 </svg>

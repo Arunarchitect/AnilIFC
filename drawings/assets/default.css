@@ -62,8 +62,9 @@ text.small, tspan.small { /* 1.8mm */ font-size: 2.97px; }
 text.GRID, tspan.GRID { /* 5mm */ font-size: 8.25px; }
 .material-blank { fill: white; }
 .material-blackwater { fill: rgb(234, 231, 128); stroke: violet; stroke-width: 0.5; }
+.material-rainwater { fill: rgb(234, 231, 128); stroke: rgb(13, 214, 250); stroke-width: 0.5; }
 .material-hotwater { fill: white; stroke: red; stroke-width: 0.5; }
-.material-coldwater { fill: white; stroke: blue; stroke-width: 0.5; }
+.material-coldwater { fill: white; stroke: rgb(3, 3, 124); stroke-width: 0.5; }
 .material-graywater { fill: white; stroke: gray; stroke-width: 0.5; }
 .material-kitchenwater { fill: white; stroke: green; stroke-width: 0.5; }
 .material-diagonal1 { fill: url(#diagonal1); }

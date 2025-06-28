@@ -4,21 +4,21 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 3,1.1.1,Foundation,,,,,,,,,
 4,1.1.1.1,Walls,,,,,,,,,
 5,1.1.1.1.1,Earth Work Excavation,,m3,,500,,,,NetVolume,"IfcWall, type=""PCC_0.75W0.12D""+IfcWall, type=""RRB_0.6W"", location=Footing"
-5,1.1.1.1.2,"PCC Footing – Using 1:3 cement mortar and 40mm nominal size broken stone including cost and conveyance of all materials to site, labour charges for laying concrete watering, curing etc. complete ",,m3,,8000,,,,NetVolume,"IfcWall, type=""PCC_0.75W0.12D"""
+5,1.1.1.1.2,"PCC Footing – Using 1:3 cement mortar and 40mm nominal size broken stone including cost and conveyance of all materials to site, labour charges for laying concrete watering, curing etc. complete ",,m3,,10000,,,,NetVolume,"IfcWall, type=""PCC_0.75W0.12D"""
 5,1.1.1.1.3,"Random Rubble Masonry – Random rubble masonry work in cement mortar 1:6 using good quality stones, properly dressed and laid, including curing ",,m3,,8000,,,,NetVolume,"IfcWall, type=""RRB_0.6W"", location=Footing"
 5,1.1.1.1.4,"Plinth - Random rubble masonry work in cement mortar 1:6 using good quality stones, properly dressed and laid, including curing ",,m3,,8000,,,,NetVolume,"IfcWall, type=""RRB_0.45W"", location=Footing +IfcWall, type=""RRB_0.425W"", location=Footing"
-5,1.1.1.1.5,"Plinth Beam – Reinforced cement concrete 1:1.5:3 using 20mm nominal size broken stone for plinth beam including cost and conveyance of all materials to site, labour charges, hire and labour for form work, shuttering, curing etc. Complete.",,m3,,500,,,,NetVolume,"IfcBeam, location=Footing"
+5,1.1.1.1.5,"Plinth Beam – Reinforced cement concrete 1:1.5:3 using 20mm nominal size broken stone for plinth beam including cost and conveyance of all materials to site, labour charges, hire and labour for form work, shuttering, curing etc. Complete.",,m3,,25000,,,,NetVolume,"IfcBeam, location=Footing"
 5,1.1.1.1.6,EarthFill,,m3,,500,,,,CompactedVolume,"IfcEarthworksFill, location=Footing"
-5,1.1.1.1.7,"PCC Flooring – 10 cm thick (7 cm base in 1:5 and 3 cm top in 1:3 mix) using 40 mm stone, including all materials, laying, curing, and labour charges complete.",,m3,,500,,,,NetVolume,"IfcSlab, location=GF"
+5,1.1.1.1.7,"PCC Flooring – 10 cm thick (7 cm base in 1:5 and 3 cm top in 1:3 mix) using 40 mm stone, including all materials, laying, curing, and labour charges complete.",,m3,,11000,,,,NetVolume,"IfcSlab, location=GF"
 4,1.1.1.2,Verandah,,,,,,,,,
 5,1.1.1.2.1,Earth Work Excavation,,m3,,500,,,,NetVolume,"IfcWall, type=""PCC_0.6W0.1D"", location=Verandah + IfcWall, type=""RRB_0.6W"", location=Verandah"
-5,1.1.1.2.1,"PCC Footing – Using 1:3 cement mortar and 40mm nominal size broken stone including cost and conveyance of all materials to site, labour charges for laying concrete watering, curing etc. complete ",,m3,,8000,,,,NetVolume,"IfcWall, type=""PCC_0.6W0.1D"", location=Verandah"
+5,1.1.1.2.1,"PCC Footing – Using 1:3 cement mortar and 40mm nominal size broken stone including cost and conveyance of all materials to site, labour charges for laying concrete watering, curing etc. complete ",,m3,,10000,,,,NetVolume,"IfcWall, type=""PCC_0.6W0.1D"", location=Verandah"
 5,1.1.1.2.2,"Random Rubble Masonry – Random rubble masonry work in cement mortar 1:6 using good quality stones, properly dressed and laid, including curing ",,m3,,8000,,,,NetVolume,"IfcWall, type=""RRB_0.6W"", location=Verandah"
 5,1.1.1.2.3,"Plinth - Random rubble masonry work in cement mortar 1:6 using good quality stones, properly dressed and laid, including curing ",,m3,,8000,,,,NetVolume,"IfcWall, type=""RRB_0.45W"", location=Verandah"
-5,1.1.1.2.4,"Plinth Beam – Reinforced cement concrete 1:1.5:3 using 20mm nominal size broken stone for plinth beam including cost and conveyance of all materials to site, labour charges, hire and labour for form work, shuttering, curing etc. Complete.",,m3,,500,,,,NetVolume,"IfcBeam, location=Verandah"
+5,1.1.1.2.4,"Plinth Beam – Reinforced cement concrete 1:1.5:3 using 20mm nominal size broken stone for plinth beam including cost and conveyance of all materials to site, labour charges, hire and labour for form work, shuttering, curing etc. Complete.",,m3,,25000,,,,NetVolume,"IfcBeam, location=Verandah"
 5,1.1.1.2.5,EarthFill,,m3,,500,,,,CompactedVolume,"IfcEarthworksFill, location=Verandah"
-5,1.1.1.2.6,"PCC Flooring – 10 cm thick (7 cm base in 1:5 and 3 cm top in 1:3 mix) using 40 mm stone, including all materials, laying, curing, and labour charges complete.",,m3,,500,,,,NetVolume,"IfcSlab, location=Verandah"
-4,1.1.1.3,"PCC Flooring _Car Porch – 10 cm thick (7 cm base in 1:5 and 3 cm top in 1:3 mix) using 40 mm stone, including all materials, laying, curing, and labour charges complete.",,m3,,500,,,,NetVolume,"IfcSlab, location=00"
+5,1.1.1.2.6,"PCC Flooring – 10 cm thick (7 cm base in 1:5 and 3 cm top in 1:3 mix) using 40 mm stone, including all materials, laying, curing, and labour charges complete.",,m3,,10000,,,,NetVolume,"IfcSlab, location=Verandah"
+4,1.1.1.3,"PCC Flooring _Car Porch – 10 cm thick (7 cm base in 1:5 and 3 cm top in 1:3 mix) using 40 mm stone, including all materials, laying, curing, and labour charges complete.",,m3,,10000,,,,NetVolume,"IfcSlab, location=00"
 3,1.1.2,SuperStructure,,,,,,,,,
 4,1.1.2.1,Brick Masonry ,,,,,,,,,
 5,1.1.2.1.1,"Brick masonry- Ground Floor- in 1:6 cement mortar, 25 cm thick, using high-quality red bricks, including cost and conveyance of all materials to site, labour charges for mixing, laying, curing, scaffolding, and all other incidental charges, complete.",,m3,,10000,,,,NetVolume,"IfcWall, location=GFWall +IfcWall, location=GFLintel"

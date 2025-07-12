@@ -19,12 +19,12 @@
  */
 
 * { stroke-linecap: round; stroke-linejoin: round; }
-text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type B TT', 'DejaVu Sans Condensed', 'Liberation Sans', 'Arial Narrow', 'Arial'; font-size: 4.13px; }
+text, tspan { /* 2.5mm */ fill: rgb(255, 0, 0); stroke: none; font-family: 'OpenGost Type B TT', 'DejaVu Sans Condensed', 'Liberation Sans', 'Arial Narrow', 'Arial'; font-size: 3px; }
 .cut { fill: black; stroke: black; stroke-linecap: 'round'; stroke-width: 0.35; fill-rule: evenodd; }
 .projection { fill: white; stroke: black; stroke-linecap: 'round'; stroke-width: 0.25; }
 .surface { stroke: none; fill: #fff; fill-rule: evenodd; }
-.annotation { fill: none; stroke: black; stroke-linecap: 'round'; stroke-width: 0.25; }
-.IfcAnnotation { fill: none; stroke: black; stroke-linecap: 'round'; stroke-width: 0.25; }
+.annotation { fill: none; stroke: rgb(0, 26, 255); stroke-linecap: 'round'; stroke-width: 0.25; }
+.IfcAnnotation { fill: none; stroke: rgb(0, 38, 255); stroke-linecap: 'round'; stroke-width: 0.25; }
 .IfcGeographicElement { fill: none; stroke: black; stroke-linecap: 'round'; stroke-width: 1; }
 .PredefinedType-LINEWORK { stroke: black; stroke-width: 0.25; }
 .PredefinedType-LINEWORK.dashed { stroke-dasharray: 3, 2; }
@@ -61,20 +61,18 @@ text.regular, tspan.regular { /* 2.5mm */ font-size: 4.13px; }
 text.small, tspan.small { /* 1.8mm */ font-size: 2.97px; }
 text.GRID, tspan.GRID { /* 5mm */ font-size: 8.25px; }
 .material-blank { fill: white; }
-.material-blackwater { fill: rgb(234, 231, 128); stroke: violet; stroke-width: 0.5; }
-.material-rainwater { fill: rgb(234, 231, 128); stroke: rgb(13, 214, 250); stroke-width: 0.5; }
+.material-blackwater { fill: white; stroke: violet; stroke-width: 0.5; }
 .material-hotwater { fill: white; stroke: red; stroke-width: 0.5; }
-.material-coldwater { fill: white; stroke: rgb(3, 3, 124); stroke-width: 0.5; }
+.material-coldwater { fill: white; stroke: blue; stroke-width: 0.5; }
 .material-graywater { fill: white; stroke: gray; stroke-width: 0.5; }
-.material-kitchenwater { fill: white; stroke: green; stroke-width: 0.5; }
 .material-diagonal1 { fill: url(#diagonal1); }
 .material-diagonal2 { fill: url(#diagonal2); }
 .material-diagonal3 { fill: url(#diagonal3); }
 .material-crosshatch1 { fill: url(#crosshatch1); }
 .material-crosshatch2 { fill: url(#crosshatch2); }
 .material-crosshatch3 { fill: url(#crosshatch3); }
-.material-brick, .layer-material-brick { fill: url(#brick); }
-.material-brick2, .layer-material-brick2 { fill: url(#brick2); }
+.material-brick { fill: url(#brick); }
+.material-brick2 { fill: url(#brick2); }
 .material-randomrubble { fill: url(#randomrubble); }
 .material-earth { fill: url(#earth); }
 .material-glass { fill: url(#glass); }
@@ -82,10 +80,26 @@ text.GRID, tspan.GRID { /* 5mm */ font-size: 8.25px; }
 .material-grass { fill: url(#grass); }
 .material-honeycomb { fill: url(#honeycomb); }
 .material-sand { fill: url(#sand); }
-.material-concrete, .layer-material-concrete { fill: url(#concrete); stroke-width: 0.5; }
+.material-concrete { fill: url(#concrete); stroke-width: 0.5; }
+.material-fibre1ft { fill: white; stroke: rgb(255, 154, 2); stroke-width: 0.5; }
+.material-fibre1_half_ft { fill: white; stroke: rgb(255, 60, 0); stroke-width: 0.5; }
+g[class*="IfcDistributionChamberElement"][class*="1ftWKR"] {
+  fill: white;
+  stroke: rgb(72, 255, 0);
+  stroke-width: 0.5;
+}
+g[class*="IfcDistributionChamberElement"][class*="ftWCS"] {
+  fill: white;
+  stroke: rgb(255, 102, 0);
+  stroke-width: 0.5;
+}
+
+
+
 .IfcSpace { fill: none; stroke: none; }
 .PredefinedType-STUD { stroke: black; stroke-width: 1; }
 .PredefinedType-WOOD { fill: url(#wood); stroke: black; stroke-width: 0.5; }
 .PredefinedType-STEEL { fill: url(#steel); stroke: black; stroke-width: 0.5; }
 .PredefinedType-CONCRETE { fill: url(#concrete); stroke: black; stroke-width: 0.5; }
 .PredefinedType-PLASTERBOARD { fill: url(#sand); stroke: black; stroke-width: 0.25; }
+

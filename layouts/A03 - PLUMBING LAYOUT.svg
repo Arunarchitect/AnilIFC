@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:ns3="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" id="root" version="1.1" width="1189.0mm" height="841.0mm" viewBox="0 0 1189.0 841.0" sodipodi:docname="A03 - PLUMBING LAYOUT.svg" inkscape:version="1.3 (0e150ed6c4, 2023-07-21)">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" id="root" version="1.1" width="1189.0mm" height="841.0mm" viewBox="0 0 1189.0 841.0" sodipodi:docname="A03 - PLUMBING LAYOUT.svg" inkscape:version="1.3 (0e150ed6c4, 2023-07-21)">
   <defs id="defs3" />
   <sodipodi:namedview id="namedview3" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="0.62688076" inkscape:cx="3814.1225" inkscape:cy="2380.8355" inkscape:window-width="1920" inkscape:window-height="1017" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="root" />
   <g data-type="titleblock" id="g1">
-    <image ns3:href="titleblocks%5CA0.svg" x="0" y="0" width="1189.0" height="841.0" id="image1" />
+    <image xlink:href="titleblocks%5CA0.svg" x="0" y="0" width="1189.0" height="841.0" id="image1" />
   </g>
   <g data-type="drawing" data-id="253031" data-drawing="1$v5g7XOz2L9Vp7KikVXQ0" id="g3" transform="translate(227.80623,172.96285)">
-    <image data-type="foreground" ns3:href="..%5Cdrawings%5CGF%20Plumbing.svg" x="-170.0" y="-153.41500000178814" width="1000.0" height="766.94" id="image2" />
-    <image data-type="view-title" ns3:href="assets%5Cview-title.svg" x="-170.0" y="618.5279100017881" width="50.222462" height="10" id="image3" />
+    <image data-type="foreground" xlink:href="..%5Cdrawings%5CGF%20Plumbing.svg" x="30.0" y="0.01499267399310611" width="600.0" height="460.08" id="image2" />
+    <image data-type="view-title" xlink:href="assets%5Cview-title.svg" x="30.0" y="465.09791732600684" width="50.222462" height="10" id="image3" />
   </g>
 </svg>

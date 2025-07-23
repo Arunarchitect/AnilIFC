@@ -96,5 +96,5 @@ g[class*="IfcDistributionChamberElement"][class*="ftWCS"] {
 .material-rainpit { fill: none; stroke: rgb(0, 76, 153); stroke-width: 0.5; }
 
 
-.material-current{fill:rgb(41, 221, 146);stroke:red;stroke-width:0.5}
+.material-current{fill:rgb(41, 221, 146);stroke:rgb(0, 87, 247);stroke-width:0.25}
 .material-mod6{fill:rgb(41, 221, 146);stroke:rgb(0, 38, 255);stroke-width:0.5}

@@ -102,4 +102,5 @@ g[class*="IfcDistributionChamberElement"][class*="ftWCS"] {
 .PredefinedType-STEEL { fill: url(#steel); stroke: black; stroke-width: 0.5; }
 .PredefinedType-CONCRETE { fill: url(#concrete); stroke: black; stroke-width: 0.5; }
 .PredefinedType-PLASTERBOARD { fill: url(#sand); stroke: black; stroke-width: 0.25; }
+.IfcBuildingElementProxy { fill: none; stroke: rgb(217, 14, 14); stroke-linecap: 'round'; stroke-width: 0.25; }
 

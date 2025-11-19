@@ -58,7 +58,7 @@
         "check_all": true
     },
     {
-        "name": "Pipes",
+        "name": "Conduits",
         "mode": "collision",
         "a": [
             {

@@ -4,14 +4,14 @@
         "mode": "collision",
         "a": [
             {
-                "file": "E:\\Er.SunilKumar\\IFC draft\\Anil IFC\\AnilIFC.ifc",
+                "file": "D:\\ABIN\\BIM\\SreekeshIFC\\Sreekesh.ifc",
                 "selector": "IfcSwitchingDevice",
                 "mode": "i"
             }
         ],
         "b": [
             {
-                "file": "E:\\Er.SunilKumar\\IFC draft\\Anil IFC\\AnilIFC.ifc",
+                "file": "D:\\ABIN\\BIM\\SreekeshIFC\\Sreekesh.ifc",
                 "selector": "IfcSwitchingDevice",
                 "mode": "i"
             }
@@ -23,14 +23,14 @@
         "mode": "collision",
         "a": [
             {
-                "file": "E:\\Er.SunilKumar\\IFC draft\\Anil IFC\\AnilIFC.ifc",
+                "file": "D:\\ABIN\\BIM\\SreekeshIFC\\Sreekesh.ifc",
                 "selector": "IfcElectricDistributionBoard",
                 "mode": "i"
             }
         ],
         "b": [
             {
-                "file": "E:\\Er.SunilKumar\\IFC draft\\Anil IFC\\AnilIFC.ifc",
+                "file": "D:\\ABIN\\BIM\\SreekeshIFC\\Sreekesh.ifc",
                 "selector": "IfcElectricDistributionBoard",
                 "mode": "i"
             }
@@ -42,14 +42,14 @@
         "mode": "clearance",
         "a": [
             {
-                "file": "E:\\Er.SunilKumar\\IFC draft\\Anil IFC\\AnilIFC.ifc",
+                "file": "D:\\ABIN\\BIM\\SreekeshIFC\\Sreekesh.ifc",
                 "selector": "IfcJunctionBox",
                 "mode": "i"
             }
         ],
         "b": [
             {
-                "file": "E:\\Er.SunilKumar\\IFC draft\\Anil IFC\\AnilIFC.ifc",
+                "file": "D:\\ABIN\\BIM\\SreekeshIFC\\Sreekesh.ifc",
                 "selector": "IfcJunctionBox",
                 "mode": "i"
             }
@@ -62,14 +62,14 @@
         "mode": "collision",
         "a": [
             {
-                "file": "E:\\Er.SunilKumar\\IFC draft\\Anil IFC\\AnilIFC.ifc",
+                "file": "D:\\ABIN\\BIM\\SreekeshIFC\\Sreekesh.ifc",
                 "selector": "IfcPipeSegment, location=\"Electrical\"",
                 "mode": "i"
             }
         ],
         "b": [
             {
-                "file": "E:\\Er.SunilKumar\\IFC draft\\Anil IFC\\AnilIFC.ifc",
+                "file": "D:\\ABIN\\BIM\\SreekeshIFC\\Sreekesh.ifc",
                 "selector": "IfcPipeSegment, location=\"Electrical\"",
                 "mode": "i"
             }

@@ -1,0 +1,10 @@
+Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,Subtotal,Property,Query
+1,1,Tile Quantity,,,,,,,,,
+2,1.1,Floor Tiles,,,,,,,,,
+3,1.1.1,Ground Floor  ,,,,,,,,,
+4,1.1.1.1,Ground Floor tile,,m2,,,,,,NetArea,"IfcCovering, type=""Tile 5cm"", location=""GF"""
+4,1.1.1.2,Ground Floor tile skirting,,m2,,,,,,NetArea,"IfcCovering, type=""Tile Skirting 2cm"", location=""GF"""
+3,1.1.2,First Floor,,,,,,,,,
+4,1.1.2.1,First  Floor tile,,m2,,,,,,,
+4,1.1.2.2,First  Floor tile skirting,,m2,,,,,,NetArea,"IfcCovering, type=""Tile 5cm"", location=""FF"""
+,,,,,,,,,,NetArea,"IfcCovering, type=""Tile Skirting 2cm"", location=""FF"""

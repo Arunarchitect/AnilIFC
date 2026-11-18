@@ -1,15 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" xmlns:ns3="http://www.w3.org/1999/xlink" id="root" version="1.1" width="1189.0mm" height="841.0mm" viewBox="0 0 1189.0 841.0" ns1:docname="A08 - ROOF DRAWINGS.svg" ns2:version="1.4.4 (dcaf3e7, 2026-05-05)">
-  <defs id="defs7" />
-  <ns1:namedview id="namedview7" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" ns2:showpageshadow="2" ns2:pageopacity="0.0" ns2:pagecheckerboard="0" ns2:deskcolor="#d1d1d1" ns2:document-units="mm" ns2:zoom="0.1719614" ns2:cx="2265.0431" ns2:cy="1695.1478" ns2:window-width="1920" ns2:window-height="991" ns2:window-x="-9" ns2:window-y="-9" ns2:window-maximized="1" ns2:current-layer="root" />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink" id="root" version="1.1" width="1189.0mm" height="841.0mm" viewBox="0 0 1189.0 841.0" ns1:docname="A08 - ROOF DRAWINGS.svg" ns2:version="1.4.4 (dcaf3e7, 2026-05-05)">
+  <defs id="defs9" />
+  <ns1:namedview id="namedview9" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" ns2:showpageshadow="2" ns2:pageopacity="0.0" ns2:pagecheckerboard="0" ns2:deskcolor="#d1d1d1" ns2:document-units="mm" ns2:zoom="0.24319015" ns2:cx="795.67367" ns2:cy="1071.1783" ns2:window-width="1920" ns2:window-height="991" ns2:window-x="-9" ns2:window-y="-9" ns2:window-maximized="1" ns2:current-layer="root" />
   <g data-type="titleblock" ns1:insensitive="true" id="g1">
-    <image ns3:href="titleblocks/A0.svg" x="0" y="0" width="1189.0" height="841.0" id="image1" />
+    <image xlink:href="titleblocks/A0.svg" x="0" y="0" width="1189.0" height="841.0" id="image1" />
   </g>
-  <g data-type="drawing" data-id="525655" data-drawing="1H$yWT9WH02OHDVdcYpIho" id="g5" transform="translate(1.5386204,-93.448822)">
-    <image data-type="foreground" ns3:href="..%5Cdrawings%5CROOF%20PLAN.svg" x="30" y="309.44882" width="625" height="625" id="image4" />
-    <image data-type="view-title" ns3:href="assets%5Cview-title.svg" x="30" y="939.44885" width="50.222462" height="10" id="image5" />
+  <g data-type="drawing" data-id="527674" data-drawing="2OStTxUeX5sfJHXynO11XK" id="g5">
+    <image data-type="foreground" xlink:href="..%5Cdrawings%5CROOF%20SECTION%20EW.svg" x="540.0" y="30.0" width="466.19998931884766" height="225.98502389220303" id="image4" />
+    <image data-type="view-title" xlink:href="assets%5Cview-title.svg" x="540.0" y="260.985023892203" width="50.222462" height="10.0" id="image5" />
   </g>
-  <g data-type="drawing" data-id="525820" data-drawing="3SkPrACUr1$O36z7NyLGzg" id="g7" transform="translate(559,-959.44885)">
-    <image data-type="foreground" ns3:href="..%5Cdrawings%5CROOF%20STRUCTURE.svg" x="30" y="959.44885" width="600" height="600" id="image6" />
-    <image data-type="view-title" ns3:href="assets%5Cview-title.svg" x="30" y="1564.4489" width="50.222462" height="10" id="image7" />
+  <g data-type="drawing" data-id="527675" data-drawing="22NGrLKbPD$8yNWTmcIi61" id="g7" transform="translate(10,-47.870634)">
+    <image data-type="foreground" xlink:href="..%5Cdrawings%5CROOF%20SECTION%20NS.svg" x="30" y="555" width="400" height="271.2955" id="image6" />
+    <image data-type="view-title" xlink:href="assets%5Cview-title.svg" x="30" y="831.29553" width="50.222462" height="10" id="image7" />
+  </g>
+  <g data-type="drawing" data-id="527676" data-drawing="3SkPrACUr1$O36z7NyLGzg" id="g9" transform="translate(119.51494,-277.9586)">
+    <image data-type="foreground" xlink:href="..%5Cdrawings%5CROOF%20STRUCTURE.svg" x="440" y="555" width="500" height="500" id="image8" />
+    <image data-type="view-title" xlink:href="assets%5Cview-title.svg" x="440" y="1060" width="50.222462" height="10" id="image9" />
+  </g>
+  <g data-type="drawing" data-id="529030" data-drawing="0UsiYPbFX4igoO28VAKkid" id="g3" transform="translate(-3.0772409,-1059.9231)">
+    <image data-type="foreground" xlink:href="..%5Cdrawings%5CROOF%20PLAN.svg" x="30" y="1080" width="500" height="500" id="image2" />
+    <image data-type="view-title" xlink:href="assets%5Cview-title.svg" x="30" y="1585" width="50.222462" height="10" id="image3" />
   </g>
 </svg>

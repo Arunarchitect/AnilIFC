@@ -1,0 +1,154 @@
+# ROOF SECTION EW: section marker missing in ROOF PLAN
+
+Notes for AnilIFC.ifc (Bonsai, IFC4X3, Blender 5.2). Written 18 Nov 2026.
+
+## 1. The problem
+
+The drawing **ROOF SECTION EW** (section view) had no section line/marker in the **ROOF PLAN** drawing. Hand-made lines kept vanishing after Activate, after reopening, or after saving.
+
+## 2. Root cause (confirmed)
+
+Bonsai manages section markers in a plan automatically. When you click **Activate** on a plan drawing, `sync_references` (bonsai/core/drawing.py) does this:
+
+1. Finds every section/elevation drawing that could be referenced by the plan.
+2. For each marker in the plan's group, it calls `regenerate_section_reference_annotation`. If that returns nothing, Bonsai runs `root.remove_product` on the marker, so any hand-made marker is deleted.
+3. For references with no marker, it calls `generate_section_reference_annotation`. If that returns nothing, no marker is created.
+
+Both functions depend on `generate_section_reference_points`, which returns `None` unless all of these pass:
+
+- the plan camera is ORTHO
+- the section's orientation is perpendicular to the plan (`is_matrix_perpendicular`)
+- **the section's 3D box physically crosses the plan camera's view box (`does_shape_intersect_camera`)**
+- the cut line, projected into the plan, lies inside the plan frame (`clip_segment`)
+
+In this file the third check failed:
+
+| Item | Value |
+|---|---|
+| ROOF PLAN camera | Z 12.101, looking down, clip 0.002 to 30 |
+| ROOF SECTION EW box (before) | Z -0.28 to 11.02, entirely below the plan's cut height |
+| Result | boxes never touched, so no marker |
+
+The test is an overlap of surfaces (BVH trees), not a containment test. The section box must poke through the plan's cut plane.
+
+## 3. The fix
+
+Raise the **ROOF SECTION EW section camera** by 1.5 m (Z 5.369 to 6.869). The box then spans about Z 1.2 to 12.5 and crosses the plan's cut plane at 12.1. After that, `generate_section_reference_points` returns the cut line and Bonsai creates the marker itself.
+
+Side effect: the section's visible vertical range moved up 1.5 m. If you need the original bottom (-0.28), enlarge the camera's height instead of moving it (increase clip_end/ortho depth) so the top still passes 12.1.
+
+### Script used
+
+Run in the Scripting workspace after activating **ROOF SECTION EW** (this loads its camera). Nothing is saved by the script.
+
+```python
+import bpy, traceback
+import ifcopenshell.geom
+import bonsai.tool as tool
+ifc = tool.Ifc.get()
+L = []
+def w(s=""): L.append(str(s))
+RAISE = 1.5
+try:
+    D = tool.Drawing
+    plan = next(x for x in ifc.by_type("IfcAnnotation") if x.Name == "ROOF PLAN" and x.ObjectType == "DRAWING")
+    sec = next(x for x in ifc.by_type("IfcAnnotation") if x.Name == "ROOF SECTION EW" and x.ObjectType == "DRAWING")
+    scam = tool.Ifc.get_object(sec)
+    if not scam:
+        raise RuntimeError("Section camera not loaded. Activate ROOF SECTION EW first.")
+    z = scam.matrix_world.translation.z
+    w(f"camera Z before: {z:.3f}")
+    if z < 6.0:
+        scam.location.z += RAISE
+        bpy.context.view_layer.update()
+        w(f"moved up {RAISE} -> Z {scam.matrix_world.translation.z:.3f}")
+    else:
+        w("already raised, not moving again")
+    if tool.Ifc.is_moved(scam):
+        D.sync_object_placement(scam)
+        w("synced placement to IFC (memory only)")
+    cam = tool.Ifc.get_object(plan)
+    shape = ifcopenshell.geom.create_shape(ifcopenshell.geom.settings(), sec)
+    w(f"does_shape_intersect_camera -> {D.does_shape_intersect_camera(shape, cam)}")
+    w(f"generate_section_reference_points -> {D.generate_section_reference_points(plan, sec)}")
+except Exception:
+    w(traceback.format_exc())
+print("\n".join(L))
+```
+
+Expected result: `does_shape_intersect_camera -> True` and a pair of points. Then:
+
+1. Select **ROOF PLAN**, click **Activate**. The marker should appear (and stay).
+2. Click **Create Drawing** and check the SVG.
+3. Click **Save IFC Project** once, run the disk check (section 5), then commit.
+
+## 4. Things that went wrong and why
+
+| Symptom | Cause |
+|---|---|
+| Hand-made line disappeared on Activate | Bonsai deletes any marker it cannot regenerate (`sync_references`, line 612). Do not hand-draw section markers. |
+| Line vanished after save and reopen (first time) | `git reset --hard HEAD` restored the last committed IFC and discarded the uncommitted save. |
+| Blender session had 2699 annotations, disk had 2700 | The in-memory model was an older state (likely undo). The disk file was correct. Saving would have overwritten it. |
+| "IFC save requested" is not proof of a save | Always verify the file on disk (section 5). |
+| Section camera showed `None` | The camera object only exists after that drawing has been activated in the session. |
+| Scripts crashed | `IfcAnnotation` has no `Tag`; `ifcopenshell.file` has no `wrapped_data` or `is_moved` (`is_moved` is `tool.Ifc.is_moved`). |
+
+Facts about the file worth remembering:
+
+- Original section line `#522212` sits in the `WEST SECTION` group, not `ROOF PLAN`. Each plan/drawing gets its own marker copy, and a marker is only drawn in plans whose group contains it.
+- Native plan markers use context `Plan/Annotation/PLAN_VIEW`, `Curve3D` poly curve at Z 0, placement equal to the plan origin (22.127, 15.737, 12.049), PredefinedType `USERDEFINED`.
+- ROOF PLAN: drawing `#98213`, group `#98225`. ROOF SECTION EW: drawing `#521885`, group `#521897`.
+- ROOF PLAN `Exclude` filter removes GRID and ELEVATION annotations only; it does not block section drawings.
+
+## 5. Safe-workflow checklist
+
+Before editing:
+- Commit or copy `AnilIFC.ifc` first. Prefer `git stash` over `git reset --hard`.
+
+After saving, verify the file on disk (separate from the Blender session):
+
+```python
+import bpy, os, time, ifcopenshell
+import bonsai.tool as tool
+path = tool.Ifc.get_path()
+f = ifcopenshell.open(path)
+print("Modified:", time.ctime(os.path.getmtime(path)), "now:", time.ctime())
+print("Annotations on disk:", len(f.by_type("IfcAnnotation")))
+for a in f.by_type("IfcAnnotation"):
+    if a.Name == "ROOF SECTION EW":
+        groups = [r.RelatingGroup.Name for r in f.get_inverse(a) if r.is_a("IfcRelAssignsToGroup")]
+        print(f"#{a.id()} {a.ObjectType} groups={groups}")
+```
+
+Then commit:
+
+```
+git add AnilIFC.ifc
+git commit -m "Raise ROOF SECTION EW so ROOF PLAN shows its section marker"
+```
+
+Rules of thumb:
+- Do not press Ctrl+Z after saving; it can roll the in-memory model back, and a later save would then overwrite the good file.
+- If the loaded model and the disk disagree, do not save. Compare by GlobalId, then restart Blender and reload.
+- If a marker is missing in a plan, do not draw one by hand. Make sure the section drawing has `TargetView = SECTION_VIEW`, `GlobalReferencing = True`, and that its box crosses the plan's cut height and falls inside the plan frame.
+
+## 6. Diagnosing a missing marker in future
+
+Run, in this order, in the Scripting workspace:
+
+1. Is the section drawing a valid reference? `EPset_Drawing` needs `TargetView` of SECTION_VIEW or ELEVATION_VIEW and `GlobalReferencing = True`.
+2. Call `tool.Drawing.generate_section_reference_points(plan, section)`. If it returns `None`, test each condition:
+   - `plan_camera.data.type == "ORTHO"`
+   - `tool.Drawing.is_matrix_perpendicular(plan_camera.matrix_world, Matrix(shape_matrix))`
+   - `tool.Drawing.does_shape_intersect_camera(shape, plan_camera)`  (the one that failed here)
+   - `helper.clip_segment(helper.ortho_view_frame(plan_camera.data), [v1, v2])`
+3. To see who deletes an annotation, wrap `tool.Ifc.run` and log `root.remove_product` calls with the stack.
+
+Bonsai source locations (version installed under `extensions\.local\lib\python3.13\site-packages\bonsai`):
+- `core/drawing.py`: `sync_references`
+- `tool/drawing.py`: `generate_section_reference_points`, `generate_section_reference_annotation`, `regenerate_section_reference_annotation`, `does_shape_intersect_camera`, `is_matrix_perpendicular`, `get_potential_reference_elements`
+
+## 7. Status when this was written
+
+- Fix confirmed in memory: `does_shape_intersect_camera -> True`, marker points generated, and the section line appeared in ROOF PLAN.
+- Still to confirm and do: Create Drawing SVG shows the marker, **Save IFC Project** once, run the disk check, then `git commit`. Until saved and committed, the fix exists only in the Blender session.
